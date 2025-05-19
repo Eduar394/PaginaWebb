@@ -25,3 +25,12 @@ module.exports = app;
 
 const paymentRoutes = require('./routes/paymentRoutes');
 app.use('/api/payment', paymentRoutes);
+const cors = require('cors');
+const dotenv = require('dotenv');
+
+dotenv.config();
+
+app.use(cors({
+  origin: process.env.CLIENT_URL,
+  credentials: true,
+}));
