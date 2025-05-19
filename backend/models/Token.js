@@ -1,0 +1,1 @@
+// Modelo para tokens de recuperación

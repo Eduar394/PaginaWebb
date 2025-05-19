@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+.env
+dist/
+build/
+logs
+*.log
+
+# Vite
+frontend/dist/
+
+# Vercel / Render
+.vercel/
+render.yaml
+
+# IDEs
+.vscode/
+.DS_Store
+
+# Coverage
+coverage/
